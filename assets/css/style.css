@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* -------------Page */
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------------Navbar */
+
+.navbar {
+    position: sticky;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+
+/* ---------Hero Image */
+.hero-image {
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-text {
+    position: relative;
+    text-align: left;
+    top: 100px;
+    left: 8%;
+    color: #e6e6e6;
+}
+
+.button-color  {
+    border-color: #e6e6e6;
+    color: #e6e6e6;
+    cursor: pointer;
+    background-color: #002c6a;
+    width: auto;
+
+}
+
+.border-color:hover {
+    border-color: #e6e6e6;
+    background-color: #0056D0;
+    color: #e6e6e6;
+}
+
+/* ------------Service section */
+.service-section {
+    
+    height: 100px;
+    width: 100%;
+    background-color: #0056D0;
+
+}
+
+
+
