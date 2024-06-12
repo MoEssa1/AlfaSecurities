@@ -7,6 +7,9 @@
     padding: 0;
 }
 
+body {
+    background-color:#e6e6e6;
+}
 
 /* -------------Navbar */
 
@@ -57,12 +60,36 @@
 
 /* ------------Service section */
 .service-section {
-    
-    height: 100px;
+     height: 100%;
     width: 100%;
-    background-color: #0056D0;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 500px 0;}
 
-}
+
+/*------------------footer section*/
+.footer_section {
+    background-color:#002c6a;
+    padding: 50px 0;
+      }
+  
+  .footer_section p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer_section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+   
+
+
 
 
 
